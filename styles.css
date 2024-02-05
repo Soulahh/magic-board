@@ -1,0 +1,18 @@
+div{
+    box-sizing: border-box;
+    border: 1px solid #000000;
+}
+
+
+div.main-container{
+    display: flex;
+    height: 900px;
+    width: 900px;
+    flex-wrap: wrap;
+} 
+ 
+
+div.main-container > div{
+    height: calc(50%);
+    width: calc(50%);
+}
